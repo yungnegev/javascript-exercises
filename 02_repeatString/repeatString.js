@@ -1,4 +1,6 @@
-const repeatString = function() {
+const repeatString = function(string, number) {
+    new_str = string.repeat(number)
+    return new_str
 
 };
 
